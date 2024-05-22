@@ -86,7 +86,7 @@ def check_version() -> None:
         # noinspection PyBroadException
         try:
 
-            r = requests.get('https://api.github.com/repos/sensepost/objection/releases/latest').json()
+            r = requests.get('https://api.github.com/repos/cobalt-e/objection/releases/latest').json()
             update_version_cache(r['tag_name'])
 
         # Just be quiet about any exceptions here. If this method fails
