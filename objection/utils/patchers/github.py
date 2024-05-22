@@ -4,8 +4,8 @@ import requests
 class Github(object):
     """ Interact with Github """
 
-    GITHUB_LATEST_RELEASE = 'https://api.github.com/repos/frida/frida/releases/latest'
-    GITHUB_TAGGED_RELEASE = 'https://api.github.com/repos/frida/frida/releases/tags/{tag}'
+    GITHUB_LATEST_RELEASE = 'https://api.github.com/repos/cobalt-e/frida/releases/latest'
+    GITHUB_TAGGED_RELEASE = 'https://api.github.com/repos/cobalt-e/frida/releases/tags/{tag}'
 
     # the 'context' of this Github instance
     gadget_version = None
